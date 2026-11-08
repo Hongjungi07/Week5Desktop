@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 140241374}
   - component: {fileID: 140241373}
   - component: {fileID: 140241372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -297,7 +297,7 @@ GameObject:
   - component: {fileID: 254940844}
   - component: {fileID: 254940843}
   - component: {fileID: 254940842}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -554,7 +554,7 @@ GameObject:
   - component: {fileID: 503374065}
   - component: {fileID: 503374064}
   - component: {fileID: 503374067}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -815,7 +815,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 4.0625
+  orthographic size: 4.09375
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -966,7 +966,7 @@ GameObject:
   - component: {fileID: 751162473}
   - component: {fileID: 751162472}
   - component: {fileID: 751162471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1134,7 +1134,7 @@ GameObject:
   - component: {fileID: 849151619}
   - component: {fileID: 849151620}
   - component: {fileID: 849151621}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1230,7 +1230,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 2
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1314,6 +1314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMove
   maxSpeed: 3
+  jumpPower: 20
 --- !u!1 &861740026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,7 +1327,7 @@ GameObject:
   - component: {fileID: 861740029}
   - component: {fileID: 861740028}
   - component: {fileID: 861740027}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1606,7 +1607,7 @@ GameObject:
   - component: {fileID: 1377962356}
   - component: {fileID: 1377962355}
   - component: {fileID: 1377962354}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1772,7 +1773,7 @@ GameObject:
   - component: {fileID: 1499547261}
   - component: {fileID: 1499547260}
   - component: {fileID: 1499547259}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2052,7 +2053,7 @@ GameObject:
   - component: {fileID: 1947495862}
   - component: {fileID: 1947495861}
   - component: {fileID: 1947495864}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2218,7 +2219,7 @@ GameObject:
   - component: {fileID: 1976823999}
   - component: {fileID: 1976823998}
   - component: {fileID: 1976823997}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
